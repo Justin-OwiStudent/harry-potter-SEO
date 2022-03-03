@@ -32,12 +32,14 @@ li {
 .nav-link {
     color: rgb(255, 255, 255);
     font-family: 'Cinzel', serif;
+    
 }
 
 .nav-link:hover {
     color: white;
     text-decoration: underline;
 }
+
 
 
 
@@ -156,16 +158,17 @@ background-attachment: fixed;
         top: 40px;
         left: 20px;
         font-size: 50px;
-            font-family: 'Playfair Display SC', serif;
-
+        font-family: 'Architects Daughter', cursive;
+        color: white;
     }
     
-    .add-1-child h3 {
+    .add-1-child h2 {
         font-size: 30px;
-        padding-left: 80px;
+        padding-left: 20px;
         padding-right: 20px;
         display: inline-block;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Playfair Display SC', serif;
+        color: rgb(204, 204, 204);
     }
     
     .add-1-child img{
@@ -175,13 +178,20 @@ background-attachment: fixed;
     }
     
     .image-container-1 {
-       background-image: url(../images/back-2.jpg);
+       background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../images/back-2.jpg);
        background-position: cover;
        background-size: cover;
         width: 100%;
         height: 100%;
     }
     
+    .show-1 {
+        margin:  auto;
+        width: 500px;
+        height: 100%;
+        background-color: red;
+    }
+
     .add-1 {
         display: flex;
         flex-direction: row;
@@ -189,9 +199,8 @@ background-attachment: fixed;
         justify-content: space-between;
         align-content: center;
         align-items: center;
-    
         height: 500px;
-        background-color: #0d5c75;
+        background-color: #16161f;
         border: black 2.5px solid;
         
     }
@@ -215,6 +224,7 @@ background-attachment: fixed;
     #Wands {
         width: 200px;
         height: 30px;
+        
     }
 
    
@@ -246,14 +256,16 @@ background-attachment: fixed;
         left: 20px;
         font-size: 50px;
         font-family: 'Architects Daughter', cursive;
+        color: white;
     }
     
-    .add-2-child h3 {
+    .add-2-child h2 {
         font-size: 30px;
-        padding-left: 80px;
+        padding-left: 20px;
         padding-right: 20px;
         display: inline-block;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Playfair Display SC', serif;
+        color: rgb(204, 204, 204);
     }
     
     .add-2-child img{
@@ -263,11 +275,18 @@ background-attachment: fixed;
     }
     
     .image-container-2 {
-       background-image: url(../images/back-2.jpg);
+       background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../images/back-2.jpg);
        background-position: cover;
        background-size: cover;
         width: 100%;
         height: 100%;
+    }
+
+    .show-2 {
+        margin:  auto;
+        width: 500px;
+        height: 100%;
+        
     }
     
     .add-2 {
@@ -277,10 +296,8 @@ background-attachment: fixed;
         justify-content: space-between;
         align-content: center;
         align-items: center;
-    
         height: 500px;
-
-        background-color: #0d5c75;
+        background-color: #16161f;
         border: black 2.5px solid;
         
     }
@@ -329,16 +346,18 @@ background-attachment: fixed;
         top: 40px;
         left: 20px;
         font-size: 50px;
-        font-family: 'Playfair Display SC', serif;
+        font-family: 'Architects Daughter', cursive;
+        color: white;
 
     }
     
-    .add-3-child h3 {
+    .add-3-child h2 {
         font-size: 30px;
-        padding-left: 80px;
+        padding-left: 20px;
         padding-right: 20px;
         display: inline-block;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Playfair Display SC', serif;
+        color: rgb(204, 204, 204);
     }
     
     .add-3-child img{
@@ -348,13 +367,20 @@ background-attachment: fixed;
     }
     
     .image-container-3 {
-       background-image: url(../images/back-2.jpg);
+       background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../images/back-2.jpg);
        background-position: cover;
        background-size: cover;
         width: 100%;
         height: 100%;
     }
     
+    .show-3 {
+        margin:  auto;
+        width: 500px;
+        height: 100%;
+        
+    }
+
     .add-3 {
         display: flex;
         flex-direction: row;
@@ -362,10 +388,8 @@ background-attachment: fixed;
         justify-content: space-between;
         align-content: center;
         align-items: center;
-    
         height: 500px;
-
-        background-color: #0d5c75;
+        background-color: #16161f;
         border: black 2.5px solid;
         
     }
