@@ -48,3 +48,48 @@ li {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../images/back-1.jpg) ;
     background-attachment: fixed;
 }
+
+
+.firm {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+   
+}
+
+.Nam {
+    background-color: #7a7a7aa9;
+    color: white;
+}
+
+.Ema {
+    background-color: #7a7a7aa9;
+    color: white;
+}
+
+.rev {
+    width: 500px;
+    height: 100px;
+    background-color: #7a7a7aa9;
+    color: white;
+    
+}
+
+h3 {
+    color: white;
+    font-family: 'Cinzel', serif;
+
+
+}
+
+.button {
+    height: 50px;
+    background-color: #25243d;
+    border-radius: 10px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 400px;
+    width: 150px;
+    align-items: center;
+    color: white;
+}
