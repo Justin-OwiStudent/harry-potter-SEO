@@ -37,16 +37,18 @@ $(document).ready(function(){
     $.getJSON(API3, function(result){
     console.log(result);
     });
+
+
+    
+
+
+    var Gryffindor = Gryffindor;
+    var Slytherin = Slytherin;
+    var Hufflepuff = Hufflepuff;
+    var Ravenclaw = Ravenclaw;
+
+    
 })
 
 
-    // $(".accordian-button-1").click(function (e) { 
-    //     e.preventDefault();
-    //     console.log("dog")
-    //     if($(".accordian-1").css("display") == "none") {
-    //         $(".accordian-1").slideDown();
-    //     } else {
-    //         $(".accordian-1").slideUp();
-    //     }
-       
-    // });
+  

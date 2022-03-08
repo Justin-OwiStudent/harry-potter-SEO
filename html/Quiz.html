@@ -66,21 +66,21 @@
 
       <div class="flex-container">
         <div class="flex-item">
-          <p>Wands</p>
+         <a href="#ref1"> <p>Wands</p></a>
         </div>
         <div class="flex-item">
-          <p>House</p>
+          <a href="#ref2"><p>House</p></a>
         </div>
         <div class="flex-item">
-          <p>Patronus</p>
+          <a href="#ref3"><p>Patronus</p></a>
         </div>
       </div> <!-- flex-container-->
 
 
       <!-- ACCORDIAN 1 -->
 
-      <div class="accordian-button-1">
-        <h4>WAND</h4>
+      <div class="accordian-button-1" id="ref1">
+        <h4>WANDS</h4>
       </div>
       <div class="accordian-1" id="wandis">
         <div class="add-1">
@@ -91,40 +91,41 @@
                 <h2>What wood would you prefer?</h2>
               </label>
               <select id="Wands" name="Wands">
-                <option value="volvo">Elder</option>
-                <option value="saab">Dark</option>
-                <option value="fiat">Ancient</option>
-                <option value="audi">Mythical</option>
+                <option value="1">Elder</option>
+                <option value="2">Dark</option>
+                <option value="3">Ancient</option>
+                <option value="4">Mythical</option>
+              </select>
+
+              <label for="Wands">
+                <h2>what shape wand would You prefer?</h2>
+              </label>
+              <select id="Wands" name="Wands">
+                <option value="1">straight</option>
+                <option value="2">Bent</option>
+                <option value="3">Squigly</option>
+                <option value="4">Random</option>
+
+              </select>
+
+              <label for="Wands">
+                <h2>If you could have a power what wil it be?</h2>
+              </label>                
+              <select id="Wands" name="Wands">
+                <option value="1">Invisibility</option>
+                <option value="2">speak to animals</option>
+                <option value="3">super strenght</option>
+                <option value="4">to read minds</option>
               </select>
 
               <label for="Wands">
                 <h2>What wood would you prefer?</h2>
               </label>
               <select id="Wands" name="Wands">
-                <option value="volvo">Elder</option>
-                <option value="saab">Dark</option>
-                <option value="fiat">Ancient</option>
-                <option value="audi">Mythical</option>
-              </select>
-
-              <label for="Wands">
-                <h2>What wood would you prefer?</h2>
-              </label>
-              <select id="Wands" name="Wands">
-                <option value="volvo">Elder</option>
-                <option value="saab">Dark</option>
-                <option value="fiat">Ancient</option>
-                <option value="audi">Mythical</option>
-              </select>
-
-              <label for="Wands">
-                <h2>What wood would you prefer?</h2>
-              </label>
-              <select id="Wands" name="Wands">
-                <option value="volvo">Elder</option>
-                <option value="saab">Dark</option>
-                <option value="fiat">Ancient</option>
-                <option value="audi">Mythical</option>
+                <option value="1">Elder</option>
+                <option value="2">Dark</option>
+                <option value="3">Ancient</option>
+                <option value="4">Mythical</option>
               </select>
             </form>
           </div><!-- add-1-child -->
@@ -140,7 +141,7 @@
 
       <!-- ACCORDIAN 2 -->
 
-      <div class="accordian-button-2">
+      <div class="accordian-button-2" id="ref2">
         <h4>HOUSE</h4>
       </div>
       <div class="accordian-2">
@@ -148,15 +149,39 @@
           <div class="add-2-child">
             <H1>What House do You Belong to?</H1>
             <form>
-              <label for="Wands">
-                <h2>What wood would you prefer?</h2>
+
+              <label for="house">
+                <h2>What are you most looking forward to learning at Hogwarts?</h2>
               </label>
-              <select id="cars" name="cars">
-                <option value="volvo">Elder</option>
-                <option value="saab">Dark</option>
-                <option value="fiat">Ancient</option>
-                <option value="audi">Mythical</option>
+              <select id="house" name="house">
+                <option value="1">Magical Creatures</option>
+                <option value="2">Spells</option>
+                <option value="3">potion making</option>
+                <option value="4">flying</option>
               </select>
+
+            </br>
+
+              <label for="house">
+                <h2>If you could have a power what wil it be?</h2>
+              </label>                
+              <select id="house" name="house">
+                <option value="1">Invisibility</option>
+                <option value="2">speak to animals</option>
+                <option value="3">super strenght</option>
+                <option value="4">to read minds</option>
+              </select>
+
+              <label for="house">
+                <h2>Which road tempts you most?</h2>
+              </label>                
+              <select id="house" name="house">
+                <option value="1">wide, sunny grassy lane</option>
+                <option value="2">narrow, dark, lantern-lit alley</option>
+                <option value="3">twisting, leaf-strewn woods</option>
+                <option value="4">cobble street, ancient buildings</option>
+              </select>
+
             </form>
           </div><!-- add-2-child -->
           <div class="add-2-child">
@@ -171,7 +196,7 @@
 
       <!-- ACCORDIAN 3 -->
 
-      <div class="accordian-button-3">
+      <div class="accordian-button-3" id="ref3">
         <h4>Patronus</h4>
       </div>
       <div class="accordian-3">
@@ -179,17 +204,18 @@
           <div class="add-3-child">
             <H1>What is your guiding Animal?</H1>
             <form>
-              <label for="Wands">
+              <label for="patronus">
                 <h2>What wood would you prefer?</h2>
               </label>
-              <select id="cars" name="cars">
-                <option value="volvo">Elder</option>
-                <option value="saab">Dark</option>
-                <option value="fiat">Ancient</option>
-                <option value="audi">Mythical</option>
+              <select id="patronus" name="patronus">
+                <option value="1">Elder</option>
+                <option value="2">Dark</option>
+                <option value="3">Ancient</option>
+                <option value="4">Mythical</option>
               </select>
             </form>
           </div><!-- add-3-child -->
+          
           <div class="add-3-child">
             <div class="image-container-3">
               <div class="show-3"></div>
