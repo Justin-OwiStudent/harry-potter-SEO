@@ -4,7 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>WizardsQuiz </title>
+
+  <!-- META TAGS -->
+  <meta name="Description" content="See what kind of Characters belong to which house ">
+  <meta name="Keywords" content="Wizards Quiz, Harry Potter, Wizards World, Gryffindor, Hufflepuff, Slytherin, Ravenclaw">
+
+
+  
 
   <!-- Bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -29,6 +36,7 @@
   <!-- JAVASCRIPT -->
   <script src="../JS/jquery-3.6.0.min.js"></script>
   <script src="../JS/Quiz.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <!-- CSS -->
   <link rel="stylesheet" href="../css/Quiz.css">
@@ -51,7 +59,7 @@
       <a class="nav-link" aria-current="page" href="../html/index.html">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link active" href="../html/Quiz.html">Quiz</a>
+      <a class="nav-link active" href="../html/Quiz.html">Members</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="../html/Feedback.html">Feedback</a>
@@ -64,7 +72,42 @@
 
     <div class="background">
 
+
+
       <div class="flex-container">
+        <div class="flex-item" id="1">
+         <a> <h3>Gryffindor</h3></a>
+         <button id="btn1" onclick="AddCard" >Members</button>
+        </div>
+        <div class="flex-item" id="1">
+          <a><h3>HufflePuff</h3></a>
+        </div>
+        <div class="flex-item" id="3">
+          <a><h3>RavenClaw</h3></a>
+        </div>
+        <div class="flex-item" id="4">
+          <a><h3>Slytherin</h3></a>
+        </div>
+      </div> 
+
+
+      <div class="collection">
+        <!-- <div class="card" id="card">
+          <div class="image">
+            <p>hello</p>
+          </div>
+          <div class="info">
+          </div>
+        </div> -->
+      </div>
+
+
+
+<!-- <button id="btn2">Append list item</button> -->
+
+
+
+      <!-- <div class="flex-container">
         <div class="flex-item">
          <a href="#ref1"> <p>Wands</p></a>
         </div>
@@ -74,11 +117,10 @@
         <div class="flex-item">
           <a href="#ref3"><p>Patronus</p></a>
         </div>
-      </div> <!-- flex-container-->
+      </div> 
 
 
-      <!-- ACCORDIAN 1 -->
-
+      
       <div class="accordian-button-1" id="ref1">
         <h4>WANDS</h4>
       </div>
@@ -128,18 +170,18 @@
                 <option value="4">Mythical</option>
               </select>
             </form>
-          </div><!-- add-1-child -->
+          </div>
           <div class="add-1-child">
             <div class="image-container-1">
               <div class="show-1"></div>
-            </div> <!-- image-container-1 -->
-          </div> <!-- add-1-child -->
+            </div> 
+          </div>
         </div>
-        <!--add-1-->
-      </div> <!-- accordian-1-->
+        
+      </div> 
 
 
-      <!-- ACCORDIAN 2 -->
+    
 
       <div class="accordian-button-2" id="ref2">
         <h4>HOUSE</h4>
@@ -163,38 +205,44 @@
             </br>
 
               <label for="house">
+                
+                <h2>Which road tempts you most?</h2>
+              </label>                
+              <select id="house" name="house">
+               <option value="1">wide, sunny grassy lane</option>
+                <option value="2">narrow, dark, lantern-lit alley</option>
+                <option value="3">twisting, leaf-strewn woods</option>
+                <option value="4">cobble street, ancient buildings</option>
+              </select>
+
+              <label for="house">
                 <h2>If you could have a power what wil it be?</h2>
               </label>                
               <select id="house" name="house">
+                
                 <option value="1">Invisibility</option>
                 <option value="2">speak to animals</option>
                 <option value="3">super strenght</option>
                 <option value="4">to read minds</option>
               </select>
 
-              <label for="house">
-                <h2>Which road tempts you most?</h2>
-              </label>                
-              <select id="house" name="house">
-                <option value="1">wide, sunny grassy lane</option>
-                <option value="2">narrow, dark, lantern-lit alley</option>
-                <option value="3">twisting, leaf-strewn woods</option>
-                <option value="4">cobble street, ancient buildings</option>
-              </select>
-
             </form>
-          </div><!-- add-2-child -->
+            
+            <button class="btn">
+              submit
+            </button>
+          </div>
           <div class="add-2-child">
             <div class="image-container-2">
               <div class="show-2"></div>
-            </div> <!-- image-container-2-->
-          </div> <!-- add-2-child -->
+            </div> 
+          </div> 
         </div>
-        <!--add-2-->
-      </div> <!-- accordian-2-->
+       
+      </div> 
 
 
-      <!-- ACCORDIAN 3 -->
+     
 
       <div class="accordian-button-3" id="ref3">
         <h4>Patronus</h4>
@@ -214,22 +262,25 @@
                 <option value="4">Mythical</option>
               </select>
             </form>
-          </div><!-- add-3-child -->
+          </div>
           
           <div class="add-3-child">
             <div class="image-container-3">
               <div class="show-3"></div>
-            </div> <!-- image-container-3-->
-          </div> <!-- add-3-child -->
+            </div> 
+          </div> 
         </div>
-        <!--add-3-->
-      </div> <!-- accordian-3-->
+       
+      </div> 
 
       <div class="House">
       </div>
       <div class="Character">
-      </div>
+      </div> -->
     </div> <!-- background -->
+    <div class="background2">
+      
+    </div>
 
   </div> <!-- container-fluid -->
 

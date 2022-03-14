@@ -1,5 +1,17 @@
-const API3 = 'http://hp-api.herokuapp.com/api/characters';
+$(function () {
+
+    const url = 'http://hp-api.herokuapp.com/api/characters';
     
-$.getJSON(API3, function(result){
-    console.log(result);
+    $.getJSON(url, function(result){
+        console.log(result);
+    
+        for (i = 0; i < result.length; i++) {
+
+
+        };
+    
+    });
+
 });
+
+

@@ -57,7 +57,144 @@ background-attachment: fixed;
     background-color: red;
 }
 
+
+
+
+
 .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-end;
+    }
+
+.flex-item:nth-child(1) {  
+    margin: 50px;
+    background-image: url(../images/gryf.jpg);
+    background-position: cover;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: flex-start;
+    
+    }
+
+.flex-item:nth-child(2) { 
+    margin: 50px;
+    background-image: url(../images/huff.jpg);
+    background-position: cover;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: flex-end;
+    }
+
+.flex-item:nth-child(3) {   
+    margin: 50px;
+    background-image: url(../images/raven.jpg);
+    background-position: cover;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    }
+
+.flex-item:nth-child(4) {
+    margin: 50px;
+    background-image: url(../images/slyth.png);
+    background-position: cover;
+    background-size: cover;
+    width: 300px;
+    height: 350px;  
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    }
+
+
+    #btn1 {
+        background-color: #25243d;
+        margin-top: 250px;
+        margin-left: 35%;
+        color: white;
+    }
+
+    .flex-item:hover{
+       
+        border: 10px rgb(0, 0, 0) solid;
+        transition: ease-in-out 100ms;
+        
+     }
+
+     a {
+         color: #16161f;
+     }
+
+     p {
+        font-size: 25px;
+        color: rgb(255, 255, 255);
+        padding: 5px;
+    font-family: 'Playfair Display SC', serif;
+        text-align: center;
+    }
+
+    
+    .collection {
+        width: 100%;
+        height: 100vh;
+      padding-top: 200px;
+      padding-left: 100px;
+      
+    }
+
+
+    
+    h3 {
+        color: white;
+        margin: auto;
+    }
+
+    .card {
+        width: 350px;
+        height: 450px;
+        background-color: #34343683;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 5px;
+        display: inline-block;
+    }
+
+    .image {
+        width: 100%;
+        height: 300px;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .info {
+        width: 100%;
+        height: 150px;
+       
+        border-radius: 10px;
+
+    }
+
+
+    .background-2 {
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(61, 61, 61);
+    }
+
+/* .flex-container {
     width: 100%;
     height: 200px;
     display: flex;
@@ -112,25 +249,16 @@ background-attachment: fixed;
     }
 
  .flex-item:hover{
-    /* background-color: #343355; */
+    
     background-color: #16161f;
-
     
- }
+ } */
 
-    p {
-        font-size: 20px;
-        color: rgb(194, 193, 193);
-        padding: 5px;
-    font-family: 'Playfair Display SC', serif;
-
-    }
-
-    
+  
 
 
-
-    /* WAND ACCORDIAN */
+/* 
+   
 
     .accordian-button-1 {
         background-color: #25243d;
@@ -238,29 +366,10 @@ background-attachment: fixed;
     }
 
 
-    /* For mobile phones: */
-    [class*="col-"] {
-    width: 100%;
-    }
-  
-  @media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-  }
+ 
     
 
-    /* HOUSE ACCORDIAN */
+
 
     .accordian-button-2 {
         background-color: #25243d;
@@ -292,7 +401,7 @@ background-attachment: fixed;
     }
     
     .add-2-child h2 {
-        font-size: 30px;
+        font-size: 25px;
         padding-left: 20px;
         padding-right: 20px;
         display: inline-block;
@@ -306,6 +415,15 @@ background-attachment: fixed;
     
     }
     
+    .btn {
+        width: 100px;
+        height: 50px;
+        background-color: white;
+        float: right;
+        margin-right: 50px;
+        margin-top: 100px;
+    }
+
     .image-container-2 {
        background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../images/back-2.jpg);
        background-position: cover;
@@ -348,11 +466,11 @@ background-attachment: fixed;
         order: 0;
         flex: 0 1 auto;
         align-self: auto;
-    }
+    } */
     
 
-    /* ACCORDIAN 3 */
-
+   
+/* 
     .accordian-button-3 {
         background-color: #25243d;
         width: 100%;
@@ -440,4 +558,4 @@ background-attachment: fixed;
         order: 0;
         flex: 0 1 auto;
         align-self: auto;
-    }
+    } */
