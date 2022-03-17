@@ -44,11 +44,15 @@ li {
 
 .background {
     width: 100%;
-    height: 2000px;
+    height: 800px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../images/back-1.jpg) ;
     background-attachment: fixed;
     position: relative;
 }
+
+
+
+
 
 .HeroText {
     margin: auto;
@@ -84,6 +88,36 @@ li {
     border: #16161f 2px solid;
 }
 
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+
+
+.go:hover{
+    box-shadow: 35px 25px 37px 5px rgba(0, 0, 0, 0.719);
+   
+    animation: bounce 0.7s;
+    background-color: #2f2e50;
+    border: #cfcfcf 2px solid;
+    transition: ease-in-out 100ms;
+    
+ }
+
+
 .go:hover{
     background-color: #2f2e50;
     border: #cfcfcf 2px solid;
@@ -109,7 +143,7 @@ h1 {
     font-family: 'Cinzel', serif;
 }
 
-p {
+.intro p {
     margin: auto;
     width: 30%;
     font-size: 15px;
@@ -138,6 +172,27 @@ a:hover {
     text-decoration: underline;
     color: #16161f00;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 30px;
+      margin: auto;
+    text-align: center;
+       width: 50%;
+    }
+
+    .Go p {
+        margin-top: -5%;
+    }
+
+    .intro p {
+        width: 50%;
+    }
+
+  }
+
 
 /* .intro p {
     margin: auto;

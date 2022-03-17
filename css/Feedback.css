@@ -49,12 +49,53 @@ li {
     background-attachment: fixed;
 }
 
+.empty {
+    width: 100%;
+    height: 50px;
+}
+
+.empty2 {
+    width: 100%;
+    height: 50px;
+}
+
+.about {
+    width: 50%;
+    height: 200px;
+    background-color: #25243d;
+    margin: auto;
+    padding: 20px;
+    border: #cfcfcf 1px solid;
+
+}
+
+h1 {
+    
+    color: white;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+
+}
+
+h4 {
+    font-size: 15px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    width: 90%;
+    font-family: 'Cinzel', serif;
+
+}
 
 .firm {
-    width: 100%;
-    height: 500px;
+    padding: 20px;
+    margin: auto;
+    width: 60%;
+    height: 350px;
     text-align: center;
-   
+    background-color: #16161f;
+    border: #cfcfcf 2px solid;
+    border-radius: 10px;
 }
 
 .Nam {
@@ -68,7 +109,7 @@ li {
 }
 
 .rev {
-    width: 500px;
+    width: 80%;
     height: 100px;
     background-color: #7a7a7aa9;
     color: white;
@@ -83,13 +124,52 @@ h3 {
 }
 
 .button {
+    margin: auto;
     height: 50px;
     background-color: #25243d;
     border-radius: 10px;
-    float: right;
     margin-top: 50px;
-    margin-right: 400px;
     width: 150px;
     align-items: center;
     color: white;
+    border: #cfcfcf 2px solid;
+
 }
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+
+.button:hover {
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.719);
+
+    animation: bounce 0.7s;
+    background-color: #2f2e50;
+    border: #cfcfcf 2px solid;
+    transition: ease-in-out 100ms;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .flex-item:nth-child(1) {
+        width: 70px;
+        height: 120px;
+        margin: 10px;
+      
+    }
+    
+  }

@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+
+
 .header {
     width: 100%;
     height: 100px;
@@ -45,10 +47,10 @@ li {
 
 .background {
 width: 100%;
-height: 1500px;
+height: 2000px;
 background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../images/quiz-back.jpg) ;
 background-attachment: fixed;
-
+background-size: cover;
 }
 
 .short {
@@ -58,7 +60,14 @@ background-attachment: fixed;
 }
 
 
-
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 60px;
+    font-family: 'Cinzel', serif;
+    
+}
 
 
 .flex-container {
@@ -72,6 +81,7 @@ background-attachment: fixed;
 
 .flex-item:nth-child(1) {  
     margin: 50px;
+    border: 3px solid black;
     background-image: url(../images/gryf.jpg);
     background-position: cover;
     background-size: cover;
@@ -85,6 +95,7 @@ background-attachment: fixed;
 
 .flex-item:nth-child(2) { 
     margin: 50px;
+    border: 3px solid black;
     background-image: url(../images/huff.jpg);
     background-position: cover;
     background-size: cover;
@@ -97,6 +108,7 @@ background-attachment: fixed;
 
 .flex-item:nth-child(3) {   
     margin: 50px;
+    border: 3px solid black;
     background-image: url(../images/raven.jpg);
     background-position: cover;
     background-size: cover;
@@ -109,6 +121,8 @@ background-attachment: fixed;
 
 .flex-item:nth-child(4) {
     margin: 50px;
+    border: 3px solid black;
+
     background-image: url(../images/slyth.png);
     background-position: cover;
     background-size: cover;
@@ -119,18 +133,29 @@ background-attachment: fixed;
     align-self: auto;
     }
 
-
-    #btn1 {
-        background-color: #25243d;
-        margin-top: 250px;
-        margin-left: 35%;
-        color: white;
+    @keyframes bounce {
+        0%, 20%, 60%, 100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+    
+        40% {
+            -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+        }
+    
+        80% {
+            -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+        }
     }
+    
+
 
     .flex-item:hover{
        
-        border: 10px rgb(0, 0, 0) solid;
-        transition: ease-in-out 100ms;
+        animation: bounce 0.8s;
+        /* transition: ease-in-out 100ms; */
         
      }
 
@@ -158,41 +183,131 @@ background-attachment: fixed;
 
     
     h3 {
+        font-size: 30px;
         color: white;
         margin: auto;
+        margin-top: -40px;
+        font-family: 'Cinzel', serif;
+        text-align: center;
+
     }
 
+    
+
     .card {
-        width: 350px;
-        height: 450px;
-        background-color: #34343683;
-        border: 2px solid black;
+        width: 300px;
+        height: 350px;
+        background-color: #000000bd;
         border-radius: 10px;
-        padding: 5px;
         display: inline-block;
+        position: relative;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .house-img {
+        width: 100%;
+        height:  100%;
+        border-radius: 10px;
+        background-size: cover;
+        border-radius: 8px;
+        
     }
 
     .image {
         width: 100%;
-        height: 300px;
-        border: 2px solid black;
+        height:  100%;
         border-radius: 10px;
+        background-size: cover;
+        border-radius: 10px;
+        
+    }
+
+    .house-img {
+        background-size: contain;
     }
 
     .info {
-        width: 100%;
-        height: 150px;
-       
+        width: 95%;
+        height: 130px;
+        background-color: rgba(0, 0, 0, 0.582);
         border-radius: 10px;
-
+        position: absolute;
+        bottom: 0px;
     }
 
+        h4 {
+            font-size: 20px;
+            color: white;
+            text-align: center;
+        }
 
-    .background-2 {
+
+        .block {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+
+    .background2 {
         width: 100%;
-        height: 100vh;
-        background-color: rgb(61, 61, 61);
+        height: 2600px;
+        background-color: rgb(24, 24, 24);
     }
+
+
+    @media only screen and (max-width: 600px) {
+        .flex-item:nth-child(1) {
+            width: 70px;
+            height: 120px;
+            margin: 10px;
+          
+        }
+        .flex-item:nth-child(2) {
+            width: 70px;
+            height: 120px;
+            margin: 10px;
+
+        }
+        .flex-item:nth-child(3) {
+            width: 70px;
+            height: 120px;
+            margin: 10px;
+
+        }
+        .flex-item:nth-child(4) {
+            width: 70px;
+            height: 120px;
+            margin: 10px;
+
+        }
+        h3 {
+        font-size: 10px;
+            margin-top: -20px;
+        }
+        .collection {
+            padding-top: 50px;
+        }
+        .card {
+            width: 80px;
+            height: 110px;
+            border-radius: 10px;
+            display: inline-block;
+            position: relative;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .info {
+            height: 50px;
+            width: 88%;
+        }
+        h4{
+            font-size: 7px;
+            margin-bottom: 0px;
+            
+        }
+      }
+
 
 /* .flex-container {
     width: 100%;

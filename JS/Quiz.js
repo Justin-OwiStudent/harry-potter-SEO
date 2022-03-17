@@ -1,135 +1,188 @@
+var namesG = [];
+
 $(document).ready(function(){
 
-  result_name = result[i].name;
+  $(".block").on("click", function(){
+    $(".collection").empty()
 
-  function AddCard() {
-    document.getElementById(".card").innerHTML += "<h3> dfgsdfg </h3>"
-}
+    let K = $(this).find("h3:first").text().toLowerCase()
+    // console.log(K);
+
+    const url = 'http://hp-api.herokuapp.com/api/characters/house/' + K ;
+    // console.log(url)
   
-  $(function () {
+    
+   
 
-    const url = 'http://hp-api.herokuapp.com/api/characters';
+    $.getJSON(url, function(result){
+      // console.log(result)
+      
+      for (i = 0; i < result.length; i++) {
+
+        if (K == "slytherin"){
+          // console.log(result)
+          
+          var card = `
+
+          <div class="card">
+          <div class="image">  
+            <img class="house-img" src="../images/slyth.png" alt="">
+          </div>
+          <div class="info">
+          <h4>` + result[i].name + `</h4>
+          <h4>` + result[i].actor + `</h4>
+          <h4>` + result[i].patronus + `</h4>
+          <h4>` + result[i].house + `</h4>
+          </div>
+        </div> `;
+        $(".collection").append(card)
+         
+
+        } else if (K == "gryffindor") {
+          console.log(result)
+          var card = `
+    
+          <div class="card">
+          <div class="image">  
+            <img class="house-img" src="../images/gryf.jpg" alt="">
+          </div>
+          <div class="info">
+          <h4>` + result[i].name + `</h4>
+          <h4>` + result[i].actor + `</h4>
+          <h4>` + result[i].patronus + `</h4>
+          <h4>` + result[i].house + `</h4>
+          </div>
+        </div>  `;
+        $(".collection").append(card)
+
+
+        } else if (K == "hufflepuff") {
+          console.log(result)
+          var card = `
+    
+          <div class="card">
+          <div class="image">  
+            <img class="house-img" src="../images/huff.jpg" alt="">
+          </div>
+          <div class="info">
+          <h4>` + result[i].name + `</h4>
+          <h4>` + result[i].actor + `</h4>
+          <h4>` + result[i].patronus + `</h4>
+          <h4>` + result[i].house + `</h4>
+          </div>
+        </div> `;
+       $(".collection").append(card)
+
+
+        } else if (K == "ravenclaw"){
+          console.log(result)
+          var card = `
+    
+          <div class="card"> 
+          <img class="house-img" src="../images/raven.jpg" alt="">         
+          <div class="info">
+              <h4>` + result[i].name + `</h4>
+              <h4>` + result[i].actor + `</h4>
+              <h4>` + result[i].patronus + `</h4>
+              <h4>` + result[i].house + `</h4>
+          </div>
+        </div> `;
+       $(".collection").append(card)
+        } 
+
+
+
+
+      }     
   
-  $.getJSON(url, function(result){
-    console.log(result);
+      //   if (K == "slytherin") {
+      //     console.log(result);
+  
+      //     var card = `
+    
+      //     <div class = "card"> 
+      //         <div class = "image"> 
+      //         <img class="house-img" src="../images/slyth.png" alt="">
+      //         </div>
+      //         <div class="info>
+      //             <h4>Name</h4>
+      //             <h4>Actor</h4>
+      //             <h4>` + result[i].house + `</h4>
+      //             <h4>patronous<h4>
+      //         </div>
+      //     </div>
+      //   `;
 
+      //   $(".collection").append(card)
 
-
-    for (i = 0; i < result.length; i++) {
-      console.log(result[i].name)
+      //   } else if ( K == "gryffindor") {
+      //    var card = `
       
-      if (result[i].house === "Gryffindor") {
-       
-        $("#btn1").click(function(){
- 
+      //       <div class = "card"> 
+      //           <div class = "image"> 
+      //           <img class="house-img" src="../images/gryf.jpg" alt="">
+      //           </div>
+      //           <div class="info>
+      //               <h4>Name</h4>
+      //               <h4>Actor</h4>
+      //               <h4>` + result[i].house + `</h4>
+      //               <h4>patronous<h4>
+      //           </div>
+      //       </div>
+      //     `;
 
+      //     $(".collection").append(card)
+      //  }
+   
+    });
+   });
 
-          $(".collection").append(
-            
-         "<div class='card' id='card'\
-          <div class='image'>\
-              <img src='" + result_name + "' class='card-img-top' alt=''>\
-          </div>\
-          <div class='info'>\
-          </div>\
-          </div>\
-          ")
-          
-        });
+})
 
+  $(".flex-item").on("click", () =>{
 
-
-
-    }
-      
-
-    // $("#btn1").click(function(){
- 
-
-
-    //     $(".collection").append(
-          
-    //    "<div class='card' id='card'\
-    //     <div class='image'>\
-    //         <img src='" + result[i].name + "' class='card-img-top' alt=''>\
-    //     </div>\
-    //     <div class='info'>\
-    //     </div>\
-    //     </div>\
-    //     ")
+  
+  
+  // var K = $(this)
+  
+  
         
-    //   });
+//   $(".collection").empty()
 
-
-    };
-
-});
-
-
-
-
-
-  
-
-
-
-  });
-
+//   $.getJSON(url, function(result){
+//     console.log(K)
     
 
+//      for (i = 0; i < result.length; i++) {
 
+//       if (K === "Slytherin")
+     
+//          console.log(result);
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  // $(function () {
-
-  //   const id = urlParams.get('id');
-
-  // const API = 'http://hp-api.herokuapp.com/api/characters' + id;
-  
-  // $.getJSON(API, function(result){
-
-  // console.log(result);
-
-
-
-  // });
-
-  
-
-  // })
+//           var card = `
     
+//           <div class = "card"> 
+//               <div class = "image"> 
+//               <img src="`+ result[i].image +`" class="card-img-top "alt="house-image/person-image">
+//               </div>
+//               <div class="info>
+//                   <h4>Name</h4>
+//                   <h4>Actor</h4>
+//                   <h4>` + result[i].house + `</h4>
+//                   <h4>patronous<h4>
+//               </div>
+//           </div>
+//         `;
 
-    // function AddCard() {
-    //     document.getElementById(".card").innerHTML += "<h3> dfgsdfg </h3>"
-    // }
+//         $(".collection").append(card)
+//      }
+     
+//   });
+//  });
 
-
-
+   
+  
+  
 
     // $(document).ready(function(){
     //     $("#btn1").click(function(){
