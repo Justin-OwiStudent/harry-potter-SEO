@@ -44,7 +44,7 @@ $(document).ready(function(){
     
           <div class="card">
           <div class="image">  
-            <img class="house-img" src="../images/gryf.jpg" alt="">
+            <img class="house-img" src="../images/gryf.png" alt="">
           </div>
           <div class="info">
           <h4>` + result[i].name + `</h4>
@@ -62,7 +62,7 @@ $(document).ready(function(){
     
           <div class="card">
           <div class="image">  
-            <img class="house-img" src="../images/huff.jpg" alt="">
+            <img class="house-img" src="../images/huff.png" alt="">
           </div>
           <div class="info">
           <h4>` + result[i].name + `</h4>
@@ -79,7 +79,7 @@ $(document).ready(function(){
           var card = `
     
           <div class="card"> 
-          <img class="house-img" src="../images/raven.jpg" alt="">         
+          <img class="house-img" src="../images/raven.png" alt="">         
           <div class="info">
               <h4>` + result[i].name + `</h4>
               <h4>` + result[i].actor + `</h4>
