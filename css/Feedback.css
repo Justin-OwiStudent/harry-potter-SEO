@@ -90,12 +90,17 @@ h4 {
 .firm {
     padding: 20px;
     margin: auto;
-    width: 60%;
+    width: 50%;
     height: 350px;
     text-align: center;
     background-color: #16161f;
     border: #cfcfcf 2px solid;
     border-radius: 10px;
+}
+
+.rev {
+    width: 60%;
+    text-align: center;
 }
 
 .Nam {
