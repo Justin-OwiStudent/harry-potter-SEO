@@ -181,10 +181,10 @@ The `Development Process` is the technical implementations and functionality don
 
 ### Mockups
 
-![image4](https://github.com/Justin-OwiStudent/harry-potter-SEO/assets/Mockup-6)
+![image4](https://github.com/Justin-OwiStudent/harry-potter-SEO/blob/main/assets/Mockup-6.png)
 <br>
 
-![image5](https://github.com/Justin-OwiStudent/harry-potter-SEO/assets/Mockup-7)
+![image5](https://github.com/Justin-OwiStudent/harry-potter-SEO/blob/main/assets/Mockup-7.png)
 
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
