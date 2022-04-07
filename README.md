@@ -10,21 +10,21 @@
 
 
 <!-- HEADER SECTION -->
-<h5 align="center" style="padding:0;margin:0;">Mike Maynard</h5>
-<h5 align="center" style="padding:0;margin:0;">110185</h5>
-<h6 align="center">DV200 - Term 1 | 2022</h6>
+<h5 align="center" style="padding:0;margin:0;">Justin Koster</h5>
+<h5 align="center" style="padding:0;margin:0;">200100</h5>
+<h6 align="center">DV201 - Term 1 | 2022</h6>
 </br>
 <p align="center">
 
-  <a href="https://github.com/MikeMaynard14/termoneexample">
-    <img src="src/assets/mascot.svg" alt="Logo" width="140" height="140">
+  <a href="https://github.com/Justin-OwiStudent/harry-potter-SEO">
+    <img src="images/LOGO.png" alt="Logo" width="140" height="140">
   </a>
   
-  <h3 align="center">OpenSpace</h3>
+  <h3 align="center">Wizards Quiz</h3>
 
   <p align="center">
-    A react project using the Space X Api to demonstrate data visualization using charts js  <br>
-    <i>This However is a template file for DV200 Students!</i> 
+    A SEO project for Term One to demonstrate the use of google Analytics   <br>
+    
     
    <br />
    <br />
