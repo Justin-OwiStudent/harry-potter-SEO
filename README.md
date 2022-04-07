@@ -23,16 +23,22 @@
   <h3 align="center">Wizards Quiz</h3>
 
   <p align="center">
-    A SEO project for Term One to demonstrate the use of google Analytics   <br>
+    A SEO project for Term One to demonstrate the use of google Analytics, google console and all google user trafficking technologies  <br>
     
     
    <br />
    <br />
    <a href="path/to/demonstration/video">View Demo</a>
-    ·
-    <a href="https://github.com/MikeMaynard14/termoneexample/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/MikeMaynard14/termoneexample/issues">Request Feature</a>
+   .
+   .
+    <a href="https://github.com/Justin-OwiStudent/harry-potter-SEO/issues">Report Issues</a>
+    .
+    .
+         <a href="https://github.com/Justin-OwiStudent/harry-potter-SEO/issues">Request Features</a>
+
+     .
+
+ 
 </p>
 <!-- TABLE OF CONTENTS -->
 
@@ -69,13 +75,15 @@
 
 ### Project Description
 
-A nice introduction to this amazing project of mine.
+this is a Harry Potter members list webPage i made for DV-201, This application is is getting all of its information from the happy potter HerokuApp API
 
 ### Built With
 
-* [React](https://reactjs.org/)
-* [Technology Name](path/to/technology/website)
-* [Technology Name](path/to/technology/website)
+* [HTML](path/to/technology/website)
+* [CSS](path/to/technology/website)
+* [JAVASCRIPT](https://www.javascript.com/)
+* [JQUERY](https://jquery.com/)
+
 
 <!-- GETTING STARTED -->
 <!-- Make sure to add appropriate information about what prerequesite technologies the user would need and also the steps to install your project on their own mashines -->
@@ -85,7 +93,8 @@ The following instructions will get you a copy of the project up and running on 
 
 ### Prerequisites
 
-Ensure that you have the latest version of [NPM](https://www.npmjs.com/) installed on your machine. The [GitHub Desktop](https://desktop.github.com/) program will also be required.
+Ensure you have the latest version of [Visual Studio Code](https://code.visualstudio.com/) installed on your machine, you will also require the latest version of [GitHub Desktop](https://desktop.github.com/)
+
 
 ### How to install
 
@@ -93,22 +102,16 @@ Ensure that you have the latest version of [NPM](https://www.npmjs.com/) install
 Here are a couple of ways to clone this repo:
 
 1. GitHub Desktop </br>
-Enter `https://github.com/MikeMaynard14/termoneexample.git` into the URL field and press the `Clone` button.
+Enter `https://github.com/Justin-OwiStudent/harry-potter-SEO` into the URL field and press the `Clone` button.
 
 2. Clone Repository </br>
 Run the following in the command-line to clone the project:
    ```sh
-   git clone https://github.com/MikeMaynard14/termoneexample.git
+   git clone https://github.com/Justin-OwiStudent/harry-potter-SEO
    ```
     Open `Software` and select `File | Open...` from the menu. Select cloned directory and press `Open` button
 
-3. Install Dependencies </br>
-Run the following in the command-line to install all the required dependencies:
-   ```sh
-   npm install
-   ```
-
-4. An API key is not required
+3. An API key is not required
 
 
 <!-- FEATURES AND FUNCTIONALITY-->
@@ -116,23 +119,16 @@ Run the following in the command-line to install all the required dependencies:
 ## Features and Functionality
 
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
-![image2](https://raw.githubusercontent.com/MikeMaynard14/termoneexample/main/src/assets/mockup.jpg)
+![image1](https://github.com/Justin-OwiStudent/harry-potter-SEO/assets/Mockup-1.png)
 
-### All The Latest Space X Data! 
+### All the students attending Hogwarts !
 
-Usding the Space X API, we have collected and collated all the most relevant Space X data into once seemless react experience!
+using the harry potter API we have made a members list webpage where you can see all the student that belonged to the whichever house at Hogwarts school of magic !
 
-![image3][image3]
+![image2][https://github.com/Justin-OwiStudent/harry-potter-SEO/assets/Mockup-4.png]
 ### Feature 2
 
-Description of Feature
-
-![image4][image4]
-### Feature 3
-
-Description of Feature
-
-![image5][image5]
+here is a list dynamically generated that displays the Students that belong to the house you selected, here we can see raven claws list.
 
 
 <!-- CONCEPT PROCESS -->
@@ -142,19 +138,12 @@ Description of Feature
 
 The `Conceptual Process` is the set of actions, activities and research that was done when starting this project.
 
-### Ideation
-
-![image5][image5]
-<br>
-![image6][image6]
-
-### Wireframes
-
-![image7][image7]
 
 ### Custom UI
 
-![image8][image8]
+![image3][https://github.com/Justin-OwiStudent/harry-potter-SEO/assets/UI]
+
+
 
 <!-- DEVELOPMENT PROCESS -->
 ## Development Process
@@ -165,44 +154,35 @@ The `Development Process` is the technical implementations and functionality don
 <!-- stipulate all of the functionality you included in the project -->
 <!-- This is your time to shine, explain the technical nuances of your project, how did you achieve the final outcome!-->
 
-* Utilized React `Charts.JS` dependency for Data visualization
-* Implemented Routing with `React-Router v6`.
-* API End Point: link Here 
-* `Plugin` for this.
-* ETC.
+* Utilizing `JQuery` to make my functionality.
+* API End Point: `https://hp-api.herokuapp.com/`
 
 #### Highlights
 <!-- stipulated the highlight you experienced with the project -->
-* What was good about this project, what did you learn.
-* What aspects did you enjoy.
+* In this project i learnt how to work with Google Analytics, which was very insightful, being able to see how many users you generated as well as where they came from and what they did on the website
+* I enjoyed being able to see all the detailed information.
 
 #### Challenges
 <!-- stipulated the challenges you faced with the project and why you think you faced it or how you think you'll solve it (if not solved) -->
-* Bugs.
-* Bugs.
+* i had a difficult time getting a way to show my data in a way that my API would allow.
 
-
-#### Above And Beyond
-
-What aspects of this final build contribute to the `Above And Beyond` Component of your brief?
-<!-- what did you learn outside of the classroom and implement into your project-->
-* Name of Skill Explored.
-* Explain your understanding and execution of above skill.
 
 ### Future Implementation
 <!-- stipulate functionality and improvements that can be implemented in the future. -->
 
-* Future 1.
-* Future 2.
+* In the future i would like to setup a proper questionnaire to get the user to engage more.
+* In the future i would like to make proper use of Google console.
 
 <!-- MOCKUPS -->
 ## Final Outcome
 
+
+
 ### Mockups
 
-![image9][image9]
+![image4][https://github.com/Justin-OwiStudent/harry-potter-SEO/assets/Mockup-6]
 <br>
-![image10][image10]
+![image5][https://github.com/Justin-OwiStudent/harry-potter-SEO/assets/Mockup-7]
 
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
@@ -217,7 +197,7 @@ See the [open issues](https://github.com/MikeMaynard14/termoneexample/issues) fo
 <!-- AUTHORS -->
 ## Authors
 
-* **Your Name & Surname** - [MikeMaynard14](https://github.com/MikeMaynard14)
+* **Justin Koster** -:trollface: [Justin-OwiStudent](https://github.com/Justin-OwiStudent)
 
 <!-- LICENSE -->
 ## License
