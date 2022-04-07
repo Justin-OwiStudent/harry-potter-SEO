@@ -129,7 +129,7 @@ using the harry potter API we have made a members list webpage where you can see
 
 ### Feature 2
 
-here is a list dynamically generated that displays the Students that belong to the house you selected, here we can see raven claws list.
+here is a list dynamically from my chosen API generated that displays the Students that belong to the house you selected, here we can see raven claws list.
 
 
 <!-- CONCEPT PROCESS -->
@@ -142,7 +142,7 @@ The `Conceptual Process` is the set of actions, activities and research that was
 
 ### Custom UI
 
-![image3](https://github.com/Justin-OwiStudent/harry-potter-SEO/assets/UI)
+![image3](https://github.com/Justin-OwiStudent/harry-potter-SEO/blob/main/assets/UI%20.png)
 
 
 
@@ -166,6 +166,8 @@ The `Development Process` is the technical implementations and functionality don
 #### Challenges
 <!-- stipulated the challenges you faced with the project and why you think you faced it or how you think you'll solve it (if not solved) -->
 * i had a difficult time getting a way to show my data in a way that my API would allow.
+* I had some trouble with my service provider, there was a massive delay uploading my files.
+* i had trouble with my php to get that working and give me right feedback.
 
 
 ### Future Implementation
