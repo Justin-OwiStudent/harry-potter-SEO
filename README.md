@@ -148,7 +148,7 @@ The `Conceptual Process` is the set of actions, activities and research that was
 
 The `Development Process` is the technical implementations and functionality done in the frontend and backend of the application.
 
-### Implementation Process :vulcan_salute:
+### Implementation Process 
 <!-- stipulate all of the functionality you included in the project -->
 <!-- This is your time to shine, explain the technical nuances of your project, how did you achieve the final outcome!-->
 
@@ -198,7 +198,7 @@ See the [open issues](https://github.com/MikeMaynard14/termoneexample/issues) fo
 <!-- AUTHORS -->
 ## Authors
 
-* **Justin Koster** -:trollface: [Justin-OwiStudent](https://github.com/Justin-OwiStudent)
+* **Justin Koster** -:trollface: [Justin-OwiStudent](https://github.com/Justin-OwiStudent) :vulcan_salute:
 
 <!-- LICENSE -->
 ## License
