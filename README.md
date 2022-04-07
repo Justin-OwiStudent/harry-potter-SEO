@@ -119,13 +119,13 @@ Run the following in the command-line to clone the project:
 ## Features and Functionality
 
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
-![image1](https://github.com/Justin-OwiStudent/harry-potter-SEO/assets/Mockup-1.png)
+![image1](https://github.com/Justin-OwiStudent/harry-potter-SEO/blob/main/assets/Mockup-1.png)
 
 ### All the students attending Hogwarts !
 
 using the harry potter API we have made a members list webpage where you can see all the student that belonged to the whichever house at Hogwarts school of magic !
 
-![image2][https://github.com/Justin-OwiStudent/harry-potter-SEO/assets/Mockup-4.png]
+![image2][https://github.com/Justin-OwiStudent/harry-potter-SEO/blob/main/assets/Mockup-4.png]
 ### Feature 2
 
 here is a list dynamically generated that displays the Students that belong to the house you selected, here we can see raven claws list.
@@ -182,12 +182,13 @@ The `Development Process` is the technical implementations and functionality don
 
 ![image4][https://github.com/Justin-OwiStudent/harry-potter-SEO/assets/Mockup-6]
 <br>
+
 ![image5][https://github.com/Justin-OwiStudent/harry-potter-SEO/assets/Mockup-7]
 
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
 
-To see a run through of the application, click below:
+To see a run through of the WebPage, click below:
 
 [View Demonstration](path/to/video/demonstration)
 
@@ -207,14 +208,14 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 <!-- LICENSE -->
 ## Contact
 
-* **Your Name & Surname** - [email@address](mailto:email@address) - [@instagram_handle](https://www.instagram.com/instagram_handle/) 
+* **Justin Koster** - [email@address](200100@virtualwindow.co.za)
 * **Project Link** - https://github.com/MikeMaynard14/termoneexample
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 <!-- all resources that you used and Acknowledgements here -->
-* [Resource Name](path/to/resource)
-* [Resource Name](path/to/resource)
+* [Mockup World](https://www.mockupworld.co/)
+* [Png Egg](https://www.pngegg.com/)
 * [Resource Name](path/to/resource)
 * [Resource Name](path/to/resource)
 * [Resource Name](path/to/resource)
