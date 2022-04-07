@@ -70,7 +70,7 @@
 <!-- header image of project -->
 ![image3](https://github.com/Justin-OwiStudent/harry-potter-SEO/blob/main/assets/UI%20.png)
 
-### Project Description
+### Project Description :book:
 
 this is a Harry Potter members list webPage i made for DV-201, This application is is getting all of its information from the happy potter HerokuApp API
 
@@ -93,7 +93,7 @@ The following instructions will get you a copy of the project up and running on 
 Ensure you have the latest version of [Visual Studio Code](https://code.visualstudio.com/) installed on your machine, you will also require the latest version of [GitHub Desktop](https://desktop.github.com/)
 
 
-### How to install
+### How to install :hammer:
 
 ### Installation
 Here are a couple of ways to clone this repo:
@@ -113,7 +113,7 @@ Run the following in the command-line to clone the project:
 
 <!-- FEATURES AND FUNCTIONALITY-->
 <!-- You can add the links to all of your imagery at the bottom of the file as references -->
-## Features and Functionality
+## Features and Functionality :electric_plug:
 
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
 ![image1](https://github.com/Justin-OwiStudent/harry-potter-SEO/blob/main/assets/Mockup-1.png)
@@ -148,7 +148,7 @@ The `Conceptual Process` is the set of actions, activities and research that was
 
 The `Development Process` is the technical implementations and functionality done in the frontend and backend of the application.
 
-### Implementation Process
+### Implementation Process :vulcan_salute:
 <!-- stipulate all of the functionality you included in the project -->
 <!-- This is your time to shine, explain the technical nuances of your project, how did you achieve the final outcome!-->
 
@@ -186,7 +186,7 @@ The `Development Process` is the technical implementations and functionality don
 ![image5](https://github.com/Justin-OwiStudent/harry-potter-SEO/blob/main/assets/Mockup-7.png)
 
 <!-- VIDEO DEMONSTRATION -->
-### Video Demonstration
+### Video Demonstration :film_projector:
 
 To see a run through of the WebPage, click below:
 
@@ -206,7 +206,7 @@ See the [open issues](https://github.com/MikeMaynard14/termoneexample/issues) fo
 Distributed under the MIT License. See `LICENSE` for more information.\
 
 <!-- LICENSE -->
-## Contact
+## Contact :incoming_envelope:
 
 * **Justin Koster** - [email@address](200100@virtualwindow.co.za)
 * **Project Link** - https://github.com/Justin-OwiStudent/harry-potter-SEO
