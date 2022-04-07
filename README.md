@@ -36,7 +36,7 @@
     .
          <a href="https://github.com/Justin-OwiStudent/harry-potter-SEO/issues">Request Features</a>
 
-     .
+     
 
  
 </p>
