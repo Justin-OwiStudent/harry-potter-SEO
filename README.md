@@ -125,7 +125,7 @@ Run the following in the command-line to clone the project:
 
 using the harry potter API we have made a members list webpage where you can see all the student that belonged to the whichever house at Hogwarts school of magic !
 
-![image2][https://github.com/Justin-OwiStudent/harry-potter-SEO/blob/main/assets/Mockup-4.png]
+![image2][https://github.com/Justin-OwiStudent/harry-potter-SEO/blob/main/assets/Mockup-6.png]
 ### Feature 2
 
 here is a list dynamically generated that displays the Students that belong to the house you selected, here we can see raven claws list.
