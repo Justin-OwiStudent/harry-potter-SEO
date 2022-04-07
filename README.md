@@ -53,13 +53,10 @@
 * [Features and Functionality](#features-and-functionality)
 * [Concept Process](#concept-process)
    * [Ideation](#ideation)
-   * [Wireframes](#wireframes)
-   * [Custom UI](#user-flow)
 * [Development Process](#development-process)
    * [Implementation Process](#implementation-process)
         * [Highlights](#highlights)
         * [Challenges](#challenges)
-   * [Future Implementation](#peer-reviews)
 * [Final Outcome](#final-outcome)
     * [Mockups](#mockups)
     * [Video Demonstration](#video-demonstration)
@@ -71,7 +68,7 @@
 <!--PROJECT DESCRIPTION-->
 ## About the Project
 <!-- header image of project -->
-![image1][image1]
+![image3](https://github.com/Justin-OwiStudent/harry-potter-SEO/blob/main/assets/UI%20.png)
 
 ### Project Description
 
@@ -134,7 +131,7 @@ here is a list dynamically from my chosen API generated that displays the Studen
 
 <!-- CONCEPT PROCESS -->
 <!-- Briefly explain your concept ideation process -->
-<!-- here you will add things like wireframing, data structure planning, anything that shows your process. You need to include images-->
+<!-- here you will add things like wire framing, data structure planning, anything that shows your process. You need to include images-->
 ## Concept Process
 
 The `Conceptual Process` is the set of actions, activities and research that was done when starting this project.
@@ -142,7 +139,7 @@ The `Conceptual Process` is the set of actions, activities and research that was
 
 ### Custom UI
 
-![image3](https://github.com/Justin-OwiStudent/harry-potter-SEO/blob/main/assets/UI%20.png)
+![image3](https://github.com/Justin-OwiStudent/harry-potter-SEO/blob/main/assets/Mockup-3.png)
 
 
 
@@ -177,7 +174,7 @@ The `Development Process` is the technical implementations and functionality don
 * In the future i would like to make proper use of Google console.
 
 <!-- MOCKUPS -->
-## Final Outcome
+## Final Outcome :iphone:
 
 
 
@@ -212,14 +209,12 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 ## Contact
 
 * **Justin Koster** - [email@address](200100@virtualwindow.co.za)
-* **Project Link** - https://github.com/MikeMaynard14/termoneexample
+* **Project Link** - https://github.com/Justin-OwiStudent/harry-potter-SEO
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 <!-- all resources that you used and Acknowledgements here -->
 * [Mockup World](https://www.mockupworld.co/)
 * [Png Egg](https://www.pngegg.com/)
-* [Resource Name](path/to/resource)
-* [Resource Name](path/to/resource)
-* [Resource Name](path/to/resource)
+* [API](https://hp-api.herokuapp.com/)
 
