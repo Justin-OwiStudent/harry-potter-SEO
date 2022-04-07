@@ -144,7 +144,7 @@ The `Conceptual Process` is the set of actions, activities and research that was
 
 
 <!-- DEVELOPMENT PROCESS -->
-## Development Process
+## Development Process :computer: 
 
 The `Development Process` is the technical implementations and functionality done in the frontend and backend of the application.
 
@@ -155,19 +155,19 @@ The `Development Process` is the technical implementations and functionality don
 * Utilizing `JQuery` to make my functionality.
 * API End Point: `https://hp-api.herokuapp.com/`
 
-#### Highlights
+#### Highlights :bulb:
 <!-- stipulated the highlight you experienced with the project -->
 * In this project i learnt how to work with Google Analytics, which was very insightful, being able to see how many users you generated as well as where they came from and what they did on the website
 * I enjoyed being able to see all the detailed information.
 
-#### Challenges
+#### Challenges :mag:
 <!-- stipulated the challenges you faced with the project and why you think you faced it or how you think you'll solve it (if not solved) -->
 * i had a difficult time getting a way to show my data in a way that my API would allow.
 * I had some trouble with my service provider, there was a massive delay uploading my files.
 * i had trouble with my php to get that working and give me right feedback.
 
 
-### Future Implementation
+### Future Implementation :mailbox_with_mail:
 <!-- stipulate functionality and improvements that can be implemented in the future. -->
 
 * In the future i would like to setup a proper questionnaire to get the user to engage more.
