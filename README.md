@@ -165,6 +165,8 @@ The `Development Process` is the technical implementations and functionality don
 * i had a difficult time getting a way to show my data in a way that my API would allow.
 * I had some trouble with my service provider, there was a massive delay uploading my files.
 * i had trouble with my php to get that working and give me right feedback.
+* i had some problems with the responsiveness of all my pages as wel as i didn't' use bootstrap rather i used @media queries
+
 
 
 ### Future Implementation :mailbox_with_mail:
