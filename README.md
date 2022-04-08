@@ -192,7 +192,7 @@ The `Development Process` is the technical implementations and functionality don
 
 To see a run through of the WebPage, click below:
 
-[View Demonstration](path/to/video/demonstration)
+[View Demonstration](https://www.youtube.com/watch?v=K4tGM-0KkqM)
 
 
 See the [open issues](https://github.com/MikeMaynard14/termoneexample/issues) for a list of proposed features (and known issues).
@@ -218,5 +218,5 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 <!-- all resources that you used and Acknowledgements here -->
 * [Mockup World](https://www.mockupworld.co/)
 * [Png Egg](https://www.pngegg.com/)
-* [API](https://hp-api.herokuapp.com/)
+* [Harry Potter API](https://hp-api.herokuapp.com/)
 
